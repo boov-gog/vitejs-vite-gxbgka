@@ -1,0 +1,28 @@
+.table-container {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+.vertical-panel {
+  position: fixed; /* Or absolute, depending on positioning needs */
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 300px; /* Adjust as needed */
+  background-color: white;
+  border-left: 1px solid lightgray;
+  box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.1); /* Optional for shadow effect */
+  /* ... add other styling as needed */
+}
